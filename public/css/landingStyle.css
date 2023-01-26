@@ -1,0 +1,123 @@
+.wave {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.m-container {
+    margin-top: -30px;
+}
+
+.header-img {
+    width: 100%;
+    padding: 10px;
+}
+
+.header-title {
+    font-size: 3.5rem;
+    color: #424851;
+    font-family: "Nunito";
+    font-weight: 700;
+ }
+ 
+ .header-text {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #424851;
+    font-family: "Nunito";
+ }
+
+/* Navbar */
+.navbar {
+    margin-top: 30px;
+     margin-bottom: 30px;
+     font-family: "Nunito";
+     color: #424851;
+ }
+ 
+ .bg-light {
+     background-color: rgba(0,0,0,0.0) !important;
+     /*border-top: 1px solid #ccc;
+     border-bottom: 1px solid #ccc;*/
+  }
+ 
+ .navbar-light .navbar-nav .nav-link {
+     color: #fff;
+     transition: 0.5s;
+ }
+ .navbar-light .navbar-nav .nav-link:hover {
+     color: rgb(224, 224, 224);
+     text-decoration: none;
+     transition: 0.5s;
+     border-radius: 5px;
+ }
+ 
+ a.nav-dropdown-link {
+    color: #424851;
+ }
+ 
+ li.nav-item-dropdown {
+     padding: 5px 10px 5px 10px;
+ }
+ 
+ li.nav-item-dropdown:hover {
+     text-decoration: none;
+     transition: 0.5s;
+     border-radius: 5px;
+     padding-left: 10px;
+     margin-left: 10px;
+     margin-right: 10px;
+ }
+ 
+ .nav-dropdown-link:hover {
+     color: #2f92e9;
+     text-decoration: none;
+     transition: 0.5s;
+ }
+ 
+ ul.nav li:hover > ul.dropdown-menu {
+     display: block;
+     color: #2f92e9!important;
+ }
+ 
+ ul.dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
+     text-decoration: none;
+ }
+ 
+ .nav-item {
+    padding: 0 25px 0 25px;
+    font-weight: 700;
+    color: #fff !important;
+ }
+
+ /* end of navbar */
+
+ @media (max-width: 1125px) {
+     .wave {
+        height: 90%;
+     }
+ }
+
+ @media (max-width: 991px) {
+    .wave {
+       height: 65%;
+    }
+
+    .m-container {
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .wave {
+       height: 33%;
+    }
+}
+
+@media (max-width: 576px) {
+    .wave {
+       height: 22%;
+    }
+}

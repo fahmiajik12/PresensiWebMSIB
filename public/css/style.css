@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "Nunito";
+    src: local('Nunito'), url(../font/nunito/Nunito-Regular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-family: Nunito;
+    -webkit-font-smoothing: antialiased;
+}
+
+.bg-login-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.image-logo-login {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.bg-password-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    width: 400px;
+}
+
+.text-description {
+    font-weight: normal;
+    font-size: 12px;;
+}
+
+.profile-picture {
+    width: 35%;
+    float: left;
+}
+
+.wrapp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 0.4rem;
+    box-shadow: 0 10px 10px rgba(0,0,0,.5);
+}
+
+@media (max-width: 992px) {
+    .wrapp {
+        width: 350px;
+     }
+}
+.card-email {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,1);
+    border-radius: 5px;
+}
+
+.h1-reset {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.reset-info-1 {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.reset-info-2 {
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.btn-reset {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.status-success {
+    background-color: #ace6ba ;
+    color: #28a745;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.status-done {
+    background-color: #e1e6eb ;
+    color: #6c757d;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.status-send {
+    background-color: #b8d7f8 ;
+    color: #4092e9;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.status-error {
+    background-color: #ebb4ba ;
+    color: #dc3545;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.status-warning {
+    background-color: #fcf1d2 ;
+    color: #ffc107;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+}
+@media (max-width: 1125px) {
+    .btn-sm {
+        margin-bottom: 2.5px;
+        margin-top: 2.5px;
+    }
+}
+tr:hover {
+    box-shadow: 10px 2px 15px 5px #e2e5e8;
+    transition: all 0.5s ease-in-out;
+}
+
+tr {
+    transition: all 0.5s ease-in-out;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.btn-filter {
+    float: right;
+    margin-bottom: 15px;
+}
+
+#dataTable_filter {
+    float: right;
+}
+
+#dataTable_paginate {
+    float: right;
+}
+
+.form-check {
+    position: relative;
+    display: inline-block;
+    padding-left: 1.25rem;
+    margin-top: 7px;
+    margin-right: 25px;
+}
+
+.icon-delete {
+    font-size: 100px;
+}
+
+.title-detail {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.btn-outline-dark {
+    color: #5a5c69;
+    border-color: #d1d3e2;
+}
+
+.img-detail {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+}
